@@ -6,7 +6,7 @@ def consumidor(cond):
     logging.debug('Iniciando hilo consumidor')
     with cond:
         cond.wait()
-        logging.debug('Recurso disponible para el consumidor')
+        logging.debug('Recurso disponible para el consumidor') 
 
 def productor(cond):
     logging.debug('Iniciando hilo productor')

@@ -24,5 +24,5 @@ hilo_principal = threading.main_thread()
 for h in threading.enumerate():
     if h is hilo_principal:
         continue
-    logging.debug('joining %s', h.getName())
+    logging.debug('joining %s', h.getName()) 
     h.join()

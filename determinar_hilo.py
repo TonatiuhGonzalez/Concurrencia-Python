@@ -42,6 +42,6 @@ ss = threading.Thread(name='Juanita', target=mi_servicio2)
 hh = threading.Thread(name='Pedrito', target=trabajador2)
 hh2 = threading.Thread(target=trabajador2)
 
-hh.start()
+hh.start() 
 hh2.start()
 ss.start()

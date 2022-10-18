@@ -17,4 +17,4 @@ hilos2 = []
 for i in range(5):
     h2 = threading.Thread(target=trabajador2, args=(i,))
     hilos2.append(h2)
-    h2.start()
+    h2.start() 

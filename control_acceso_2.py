@@ -9,7 +9,7 @@ class Contador:
         self.valor = start
 
     def incrementar(self):
-        logging.debug('Esperando por lock')
+        logging.debug('Esperando por lock') 
         self.lock.acquire()
 
         try:
